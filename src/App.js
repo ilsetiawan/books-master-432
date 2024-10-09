@@ -21,7 +21,11 @@ function App() {
         <h1 className="t2ext-base md:text-2xl lg:text-3xl font-bold">Design Front-end (H)</h1>
       </header>
 
-      <div className="w-5/6 md:w-1/2 mx-auto mt-36 md:mt-40  shadow-full shadow-teal-600 rounded-md md:rounded-lg">
+      <div className="mt-36 md:mt-40 mx-auto w-[300px]">
+        <h1 className="py-3 px-6 text-teal-600 font-bold text-center  border-b-2 border-teal-600  mx-auto text-xl md:text-2xl lg:text-4xl">Books Master</h1>
+      </div>
+
+      <div className="w-5/6 md:w-1/2 mt-10 mx-auto  shadow-full shadow-teal-600 rounded-md md:rounded-lg">
         <AddBook id={bookId} setBookId={setBookId} />
       </div>
 
